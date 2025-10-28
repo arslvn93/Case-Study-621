@@ -37,7 +37,7 @@ const config = {
       "subTitle": "Summary",
       "paragraphs": [
         "When Sarah inherited her childhood home at 14 Warren Crescent after her father's passing, she faced an overwhelming challenge. The house hadn't been updated in over 40 years, and comparable properties in the area were sitting on the market for weeks or expiring unsold.",
-        "Through professional service and market expertise, we delivered exceptional results for our client. <strong>SOLD FOR $1,000,000</strong> - $71,000 above the $929,000 asking price <strong>SOLD IN JUST 8 DAYS</strong> - 5x faster than the 40+ day market average Generated 22 qualified showings and secured the right buyer with strategic negotiation <strong>NEGOTIATED PRICE UP $40,000</strong> from the buyer's initial offer, even with no competing bids Closed successfully with no renegotiations or deal-threatening surprises"
+        "Through professional service and market expertise, we delivered exceptional results for our client. <strong>SOLD FOR $1,000,000</strong> - $71,000 above the $929,000 asking price. <strong>SOLD IN JUST 8 DAYS</strong> - 5x faster than the 40+ day market average. Generated 22 qualified showings and secured the right buyer with strategic negotiation. <strong>NEGOTIATED PRICE UP $40,000</strong> from the buyer's initial offer, even with no competing bids. Closed successfully with no renegotiations or deal-threatening surprises."
       ]
     },
     "sidebar": {
