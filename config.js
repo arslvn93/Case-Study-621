@@ -73,7 +73,7 @@ const config = {
         "Staged the home professionally after renovations to showcase its true potential rather than its dated past"
       ],
       "testimonial": {
-        "quote": "\"\"I was honestly prepared for this to drag on for months based on what I was seeing in the neighborhood. When James told me we'd need to invest in major improvements, I was nervous about spending the money. But his attention to detail and commitment to provide every resource necessary to present our home the right way really resonated with me. Getting it sold for over asking price in just 8 days when I was expecting it to sit until the new year - that confirmed we took exactly the right approach. James delivered everything he promised.\"\"<br><span>— Satisfied Client</span>"
+        "quote": "\"I was honestly prepared for this to drag on for months based on what I was seeing in the neighborhood. When James told me we'd need to invest in major improvements, I was nervous about spending the money. But his attention to detail and commitment to provide every resource necessary to present our home the right way really resonated with me. Getting it sold for over asking price in just 8 days when I was expecting it to sit until the new year - that confirmed we took exactly the right approach. James delivered everything he promised.\"<br><span>— Satisfied Client</span>"
       },
       "listItems": []
     },
@@ -84,7 +84,7 @@ const config = {
         "After 20 years of friendship, Sarah knew I wouldn't sugarcoat the situation or make promises I couldn't keep. When I told her we'd need to invest significantly in transformations and marketing to compete - but that I'd spare no expense to get her the result she deserved - she trusted the process completely."
       ],
       "image": {
-        "src": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?fit=crop&w=800&q=80"
+        "src": "https://iili.io/KPFwIlS.webp"
       },
       "listItems": []
     },
