@@ -32,7 +32,7 @@ const config = {
     "summary": {
       "title": "How We Transformed a Dated Family Home Into a $1M Sale - $71,000 Above Asking in Just 8 Days When Similar Properties Sat for 40+ Days",
       "heroImage": {
-        "src": ""
+        "src": "https://iili.io/KPFwAJ9.webp"
       },
       "subTitle": "Summary",
       "paragraphs": [
