@@ -26,7 +26,7 @@ const config = {
   "header": {
     "tag": "CASE STUDY",
     "title": "How We Transformed a Dated Family Home Into a $1M Sale - $71,000 Above Asking in Just 8 Days When Similar Properties Sat for 40+ Days",
-    "subheadline": "From “Fixer-Upper” to Fastest Sale on the Block — Sold for $71K Over Asking in Just 8 Days, While Others Sat for Over 40"
+    "subheadline": "When selling felt impossible, we brought clarity, strategy, and results—turning an outdated family home into a story of success, speed, and peace of mind."
   },
   "mainBox": {
     "summary": {
