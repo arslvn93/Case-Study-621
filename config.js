@@ -1,16 +1,5 @@
-// =================================================================================================
-// PAGE CONFIGURATION OBJECT
-// This file defines all the dynamic content for the case study page.
-// The `renderer.js` file reads this object to build the HTML.
-// To change text, images, or other content, edit the values in this file.
-// =_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_
 const config = {
   "globals": {
-    "companyName": "James Hall",
-    "mainCTAButtonText": "Book A Discovery Call",
-    "mainCTAButtonURL": "#contact",
-    "primaryColor": "#e3c379",
-    "accentColor": "#d9c6a2",
     "agents": [
       {
         "name": "James Hall",
@@ -26,7 +15,13 @@ const config = {
           }
         ]
       }
-    ]
+    ],
+    "companyName": "James Hall",
+    "mainCTAButtonText": "Book A Discovery Call",
+    "mainCTAButtonURL": "https://calendly.com/realestatewithjames",
+    "primaryColor": "#e3c379",
+    "accentColor": "#d9c6a2",
+    "facebookPixelId": ""
   },
   "header": {
     "tag": "CASE STUDY",
@@ -37,7 +32,7 @@ const config = {
     "summary": {
       "title": "How We Transformed a Dated Family Home Into a $1M Sale - $71,000 Above Asking in Just 8 Days When Similar Properties Sat for 40+ Days",
       "heroImage": {
-        "src": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?fit=crop&w=800&q=80"
+        "src": ""
       },
       "subTitle": "Summary",
       "paragraphs": [
@@ -64,7 +59,8 @@ const config = {
         "Comparable properties in the neighborhood were averaging 40+ days on market, with many listings expiring or being terminated without selling",
         "Sarah needed to sell quickly to move forward after losing her father, but worried no buyer would want to take on the additional renovations needed",
         "The local market was showing little activity, creating doubt about whether any buyer would emerge at a fair price"
-      ]
+      ],
+      "listItems": []
     },
     {
       "type": "standard",
@@ -78,7 +74,8 @@ const config = {
       ],
       "testimonial": {
         "quote": "\"\"I was honestly prepared for this to drag on for months based on what I was seeing in the neighborhood. When James told me we'd need to invest in major improvements, I was nervous about spending the money. But his attention to detail and commitment to provide every resource necessary to present our home the right way really resonated with me. Getting it sold for over asking price in just 8 days when I was expecting it to sit until the new year - that confirmed we took exactly the right approach. James delivered everything he promised.\"\"<br><span>— Satisfied Client</span>"
-      }
+      },
+      "listItems": []
     },
     {
       "type": "standard",
@@ -88,7 +85,8 @@ const config = {
       ],
       "image": {
         "src": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?fit=crop&w=800&q=80"
-      }
+      },
+      "listItems": []
     },
     {
       "type": "standard",
@@ -99,7 +97,8 @@ const config = {
         "Generated 22 qualified showings and secured the right buyer with strategic negotiation",
         "<strong>NEGOTIATED PRICE UP $40,000</strong> from the buyer's initial offer, even with no competing bids",
         "Closed successfully with no renegotiations or deal-threatening surprises"
-      ]
+      ],
+      "listItems": []
     },
     {
       "type": "standard",
@@ -108,7 +107,8 @@ const config = {
         "Strategic pricing beats wishful thinking every time - Toronto buyers are data-driven and will ignore overpriced listings, leaving you with a stigmatized property that eventually sells for less",
         "Pre-sale preparation isn't optional in this market - hidden issues that surface during buyer inspections kill deals or force expensive credits, while proper staging and improvements maximize perceived value",
         "Maximum exposure requires investment - simply listing on MLS isn't enough when inventory is high; you need professional marketing, paid advertising, and aggressive promotion to fight for buyer attention"
-      ]
+      ],
+      "listItems": []
     },
     {
       "type": "ctaBanner",
@@ -120,24 +120,24 @@ const config = {
     }
   ],
   "footer": {
+    "privacyPolicy": {
+      "text": "Privacy Policy",
+      "href": "#"
+    },
     "logo": {
       "src": "https://prod-files-secure.s3.us-west-2.amazonaws.com/8e0c10a0-da43-409c-b191-91135b7161ff/1fba164c-88d7-489c-9d48-a0a580907f75/1756342129825-James_Hall-1.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB46634ZXXH7S%2F20251023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251023T152857Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIEQDy%2F1Bl%2BFH3KVNNa9cy7IBby6q6indFxR7DCBf3MWbAiB8dLf9PbqgZVczVfQOB%2FfZg1zLsNCv1xhW%2B5Rt9%2FNjoyr%2FAwhIEAAaDDYzNzQyMzE4MzgwNSIMNBImIn2WmXHhoTPWKtwDJnBiqVNPbBwzGWl9kpDQyMNnphF7DYlbTKTLN38L4qh1aOBVJ3yxaOBNhLjgNWJZdH0ScEHIikUfTaLHbfybth9VLWy3QZIbagBfhfVRxJ%2F8%2FKxcWnQuoiaR7exPapL7WQwEnLf%2FtVdUQe1eJl5v5qfVxNKE3mxxjRCQeKS72q%2FCXVpTklL59nxKihgAf20u39Nu0K%2FAmMLfO9PHDyn2XpoYvCIdFnOqFZDXsQqRDtTPD9r16kgXqC6y7YYndlfce03RytKNLVUHqNzgq9ldvSbpG1oSKW1yIvi0aJ7tWNDnLd38qnxaCXTKinR5IKV4hiBNF%2BxHF%2FX3eqhMEKFiXKVJiDI1J7g6Xu4ZP3pQMOpNzlBI8WKzxp1HN9oNEZbK9STZg%2BSsCypfkpZoRonjlRTCZc%2FPN%2Bh2CSFPgvrguQVUGUWRZq6oeNSBEE4LL6MZ3gn7%2FJxwq%2FO2bWTRhGaSsZpGZYceVKM%2BXhaFbAI2XtsYt2l%2FWOmnxtAkK6IXCgbihSoTQwjkE6ynr7cMXJxahH2igwJAoN%2FOEIqOfCPT4Br6fDssWOjixHMyDLvYVHBl6r0EAkxz6iupO1Vcf3RkGK1j6PJ75e%2FUADejDpxmyKAws7lAVCRHBwcGNDwwmpDpxwY6pgGAT7WRFE10AG2kYf60XHTtmWTtqY1u8S8HhY6BiHCEX65EHpWHUt7NuDKQ8Vi8tSXPPzHCwjjrQa85peDJTCVy301BWvAZutGCK4ZAYcOvSk8v8KPyhEeqmYa8JKnRlWS6DN0r1R44Mx4E7jqcRtmR6X%2FG355qqMtm4ij5vppN65hwIDziVyDSc68kp8QZqXi8Dp2dAp%2FYNPyyPIy6571KQg87rYbf&X-Amz-Signature=c3a45e3845ab84515e5f5c70db923d1d27aba4075e4bd9bc139cc778e642f63e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
+    },
+    "secondaryLogo": {
+      "src": "https://prod-files-secure.s3.us-west-2.amazonaws.com/8e0c10a0-da43-409c-b191-91135b7161ff/6502f84f-163f-4bd6-9b8a-6e7245ae498c/1756342162944-Property_Logo_-_navy_and_red.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB46634ZXXH7S%2F20251023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251023T152857Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIEQDy%2F1Bl%2BFH3KVNNa9cy7IBby6q6indFxR7DCBf3MWbAiB8dLf9PbqgZVczVfQOB%2FfZg1zLsNCv1xhW%2B5Rt9%2FNjoyr%2FAwhIEAAaDDYzNzQyMzE4MzgwNSIMNBImIn2WmXHhoTPWKtwDJnBiqVNPbBwzGWl9kpDQyMNnphF7DYlbTKTLN38L4qh1aOBVJ3yxaOBNhLjgNWJZdH0ScEHIikUfTaLHbfybth9VLWy3QZIbagBfhfVRxJ%2F8%2FKxcWnQuoiaR7exPapL7WQwEnLf%2FtVdUQe1eJl5v5qfVxNKE3mxxjRCQeKS72q%2FCXVpTklL59nxKihgAf20u39Nu0K%2FAmMLfO9PHDyn2XpoYvCIdFnOqFZDXsQqRDtTPD9r16kgXqC6y7YYndlfce03RytKNLVUHqNzgq9ldvSbpG1oSKW1yIvi0aJ7tWNDnLd38qnxaCXTKinR5IKV4hiBNF%2BxHF%2FX3eqhMEKFiXKVJiDI1J7g6Xu4ZP3pQMOpNzlBI8WKzxp1HN9oNEZbK9STZg%2BSsCypfkpZoRonjlRTCZc%2FPN%2Bh2CSFPgvrguQVUGUWRZq6oeNSBEE4LL6MZ3gn7%2FJxwq%2FO2bWTRhGaSsZpGZYceVKM%2BXhaFbAI2XtsYt2l%2FWOmnxtAkK6IXCgbihSoTQwjkE6ynr7cMXJxahH2igwJAoN%2FOEIqOfCPT4Br6fDssWOjixHMyDLvYVHBl6r0EAkxz6iupO1Vcf3RkGK1j6PJ75e%2FUADejDpxmyKAws7lAVCRHBwcGNDwwmpDpxwY6pgGAT7WRFE10AG2kYf60XHTtmWTtqY1u8S8HhY6BiHCEX65EHpWHUt7NuDKQ8Vi8tSXPPzHCwjjrQa85peDJTCVy301BWvAZutGCK4ZAYcOvSk8v8KPyhEeqmYa8JKnRlWS6DN0r1R44Mx4E7jqcRtmR6X%2FG355qqMtm4ij5vppN65hwIDziVyDSc68kp8QZqXi8Dp2dAp%2FYNPyyPIy6571KQg87rYbf&X-Amz-Signature=8a8ad76fefe9e942ab17f6b42755ed44543ab5ceb89f6c2455431a768c849de2&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
     },
     "brokerageLabel": "Brokerage:",
     "brokerageName": "Property.ca Inc. Brokerage",
     "brokerageAddress": "36 Distilery Lane, Suite 500, Toronto, ON, M5A 3C4, Canada",
-    "secondaryLogo": {
-      "src": "https://prod-files-secure.s3.us-west-2.amazonaws.com/8e0c10a0-da43-409c-b191-91135b7161ff/6502f84f-163f-4bd6-9b8a-6e7245ae498c/1756342162944-Property_Logo_-_navy_and_red.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB46634ZXXH7S%2F20251023%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20251023T152857Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIEQDy%2F1Bl%2BFH3KVNNa9cy7IBby6q6indFxR7DCBf3MWbAiB8dLf9PbqgZVczVfQOB%2FfZg1zLsNCv1xhW%2B5Rt9%2FNjoyr%2FAwhIEAAaDDYzNzQyMzE4MzgwNSIMNBImIn2WmXHhoTPWKtwDJnBiqVNPbBwzGWl9kpDQyMNnphF7DYlbTKTLN38L4qh1aOBVJ3yxaOBNhLjgNWJZdH0ScEHIikUfTaLHbfybth9VLWy3QZIbagBfhfVRxJ%2F8%2FKxcWnQuoiaR7exPapL7WQwEnLf%2FtVdUQe1eJl5v5qfVxNKE3mxxjRCQeKS72q%2FCXVpTklL59nxKihgAf20u39Nu0K%2FAmMLfO9PHDyn2XpoYvCIdFnOqFZDXsQqRDtTPD9r16kgXqC6y7YYndlfce03RytKNLVUHqNzgq9ldvSbpG1oSKW1yIvi0aJ7tWNDnLd38qnxaCXTKinR5IKV4hiBNF%2BxHF%2FX3eqhMEKFiXKVJiDI1J7g6Xu4ZP3pQMOpNzlBI8WKzxp1HN9oNEZbK9STZg%2BSsCypfkpZoRonjlRTCZc%2FPN%2Bh2CSFPgvrguQVUGUWRZq6oeNSBEE4LL6MZ3gn7%2FJxwq%2FO2bWTRhGaSsZpGZYceVKM%2BXhaFbAI2XtsYt2l%2FWOmnxtAkK6IXCgbihSoTQwjkE6ynr7cMXJxahH2igwJAoN%2FOEIqOfCPT4Br6fDssWOjixHMyDLvYVHBl6r0EAkxz6iupO1Vcf3RkGK1j6PJ75e%2FUADejDpxmyKAws7lAVCRHBwcGNDwwmpDpxwY6pgGAT7WRFE10AG2kYf60XHTtmWTtqY1u8S8HhY6BiHCEX65EHpWHUt7NuDKQ8Vi8tSXPPzHCwjjrQa85peDJTCVy301BWvAZutGCK4ZAYcOvSk8v8KPyhEeqmYa8JKnRlWS6DN0r1R44Mx4E7jqcRtmR6X%2FG355qqMtm4ij5vppN65hwIDziVyDSc68kp8QZqXi8Dp2dAp%2FYNPyyPIy6571KQg87rYbf&X-Amz-Signature=8a8ad76fefe9e942ab17f6b42755ed44543ab5ceb89f6c2455431a768c849de2&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
-    },
-    "disclaimerText": "All testimonials on this page are from real clients. Their experiences do not guarantee similar results.<br>Individual results may vary based on location, market conditions, motivation, as well as other unforeseen factors. Your results may vary.",
-    "privacyPolicy": {
-      "text": "Privacy Policy",
-      "href": "#"
-    }
-  }
+    "disclaimerText": "All testimonials on this page are from real clients. Their experiences do not guarantee similar results.<br>Individual results may vary based on location, market conditions, motivation, as well as other unforeseen factors. Your results may vary."
+  },
+  "githubRepo": "https://github.com/arslvn93/Case-Study-621"
 };
 
-// Export for Node.js environment (if applicable) or set for browser
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = config;
 } else if (typeof window !== 'undefined') {
