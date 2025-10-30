@@ -19,8 +19,8 @@ const config = {
     "companyName": "James Hall",
     "mainCTAButtonText": "Book A Discovery Call",
     "mainCTAButtonURL": "https://calendly.com/realestatewithjames",
-    "primaryColor": "#e3c379",
-    "accentColor": "#d9c6a2",
+    "primaryColor": "#1f5634",
+    "accentColor": "#000000",
     "facebookPixelId": ""
   },
   "header": {
