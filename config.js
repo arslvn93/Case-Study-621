@@ -3,7 +3,7 @@ const config = {
     "agents": [
       {
         "name": "James Hall",
-        "imageSrc": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/upload-jameshalllogo.png",
+        "imageSrc": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/upload-322545903_477888371183600_1602868688486600505_n.jpg",
         "contactDetails": [
           {
             "type": "email",
