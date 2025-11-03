@@ -25,8 +25,8 @@ const config = {
   },
   "header": {
     "tag": "CASE STUDY",
-    "title": "How We Transformed a Dated Family Home Into a $1M Sale. $71,000 Above Asking in Just 8 Days When Similar Properties Sat for 40+ Days",
-    "subheadline": "When selling felt impossible, we used clarity and strategy to turn a dated family home into a confident, successful sale."
+    "title": "How We Helped a Toronto Family Sell Their Century Home for $1M in Just 8 Days",
+    "subheadline": "With the right updates and strategy, the property sold above asking while others nearby were still waiting for offers."
   },
   "mainBox": {
     "summary": {
