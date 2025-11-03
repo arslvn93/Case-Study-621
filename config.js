@@ -55,10 +55,10 @@ const config = {
       "type": "standard",
       "title": "The Challenge",
       "paragraphs": [
-        "The house was frozen in time with original shag carpeting, outdated fixtures, and decades of deferred maintenance that screamed \"fixer-upper\" to potential buyers",
-        "Comparable properties in the neighborhood were averaging 40+ days on market, with many listings expiring or being terminated without selling",
-        "Sarah needed to sell quickly to move forward after losing her father, but worried no buyer would want to take on the additional renovations needed",
-        "The local market was showing little activity, creating doubt about whether any buyer would emerge at a fair price"
+        "This century-old home had not been updated in decades. Original shag carpeting, aging fixtures, and years of deferred maintenance gave it the appearance of a serious fixer-upper to many buyers. Comparable homes in the neighborhood were taking close to 40 days to sell, and many listings were either expiring or being pulled from the market without offers.",
+        "The client needed to move forward and hoped for a clean sale, but there were concerns about whether buyers would see past the needed updates or feel confident making a strong offer in a slow-moving market.",
+        "",
+        ""
       ],
       "listItems": []
     },
@@ -66,11 +66,11 @@ const config = {
       "type": "standard",
       "title": "The Strategy",
       "paragraphs": [
-        "Completely transformed the property by removing all shag carpeting, refinishing original hardwood floors, painting throughout, updating the bathroom, installing new lighting and flooring, and building a brand new back deck",
-        "Created a comprehensive marketing arsenal including professional photography, drone footage, marketing videos, 3D Matterport tours, floor plans, and targeted social media advertising",
-        "Strategically priced using comparable data and future value potential - not so low that unrealistic offers came in, but competitive enough to stand out from stagnant listings",
-        "Personally canvassed and door-knocked the entire neighborhood to generate buzz and drive traffic to our open houses",
-        "Staged the home professionally after renovations to showcase its true potential rather than its dated past"
+        "We focused on improvements that would create real buyer confidence. The carpeting was removed to reveal original hardwood floors. We painted throughout, updated the bathroom, installed modern lighting and flooring, and added a brand-new back deck to increase appeal and usability.",
+        "To bring attention to the home, we developed a full marketing plan. This included professional photography, drone footage, a 3D tour, floor plans, and targeted advertising across social media channels.",
+        "We priced the property based on market data and future value. It was competitive enough to stand out from stagnant listings, but not so low that it invited unrealistic offers. We also canvassed the neighborhood directly to build local interest and drive traffic to the open houses.",
+        "The home was professionally staged after the work was completed to highlight its full potential.",
+        ""
       ],
       "testimonial": {
         "quote": "\"I was honestly prepared for this to drag on for months based on what I was seeing in the neighborhood. When James told me we'd need to invest in major improvements, I was nervous about spending the money. But his attention to detail and commitment to provide every resource necessary to present our home the right way really resonated with me. Getting it sold for over asking price in just 8 days when I was expecting it to sit until the new year - that confirmed we took exactly the right approach. James delivered everything he promised.\"<br><span>— Satisfied Client</span>"
@@ -81,7 +81,7 @@ const config = {
       "type": "standard",
       "title": "The Solution",
       "paragraphs": [
-        "After 20 years of friendship, Sarah knew I wouldn't sugarcoat the situation or make promises I couldn't keep. When I told her we'd need to invest significantly in transformations and marketing to compete - but that I'd spare no expense to get her the result she deserved - she trusted the process completely."
+        "The client was fully informed about the condition of the home and the realities of the market. We explained clearly that success would depend on thoughtful preparation and consistent effort. With trust in the process, we were able to move forward confidently and present the property at its absolute best."
       ],
       "image": {
         "src": "https://iili.io/KPFwIlS.webp"
@@ -92,11 +92,11 @@ const config = {
       "type": "standard",
       "title": "The Results",
       "paragraphs": [
-        "<strong>SOLD FOR $1,000,000</strong> - $71,000 above the $929,000 asking price",
-        "<strong>SOLD IN JUST 8 DAYS</strong> - 5x faster than the 40+ day market average",
-        "Generated 22 qualified showings and secured the right buyer with strategic negotiation",
-        "<strong>NEGOTIATED PRICE UP $40,000</strong> from the buyer's initial offer, even with no competing bids",
-        "Closed successfully with no renegotiations or deal-threatening surprises"
+        "The home sold for $1,000,000, which was $71,000 over the $929,000 asking price. It sold in just 8 days, while most comparable homes in the area were taking significantly longer to move.",
+        "We brought in 22 qualified showings and secured the right buyer through effective marketing and clear communication. The buyer’s initial offer was negotiated up by $40,000 without other bids on the table, and the closing was completed without any issues or renegotiations.",
+        "",
+        "",
+        ""
       ],
       "listItems": []
     },
@@ -104,9 +104,9 @@ const config = {
       "type": "standard",
       "title": "Conclusion",
       "paragraphs": [
-        "Strategic pricing beats wishful thinking every time - Toronto buyers are data-driven and will ignore overpriced listings, leaving you with a stigmatized property that eventually sells for less",
-        "Pre-sale preparation isn't optional in this market - hidden issues that surface during buyer inspections kill deals or force expensive credits, while proper staging and improvements maximize perceived value",
-        "Maximum exposure requires investment - simply listing on MLS isn't enough when inventory is high; you need professional marketing, paid advertising, and aggressive promotion to fight for buyer attention"
+        "Strategic pricing and preparation deliver better results than relying on market timing or chance. Buyers in Toronto are informed and value-driven. If a home is overpriced or poorly presented, it can quickly become overlooked and difficult to sell.",
+        "In this case, the results came from doing the right work up front. Proper staging and improvements helped buyers see the full value of the home. A strong marketing campaign ensured the home reached the right audience. And a thoughtful pricing strategy created the interest needed to close quickly and cleanly.",
+        ""
       ],
       "listItems": []
     },
