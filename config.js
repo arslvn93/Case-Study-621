@@ -30,7 +30,7 @@ const config = {
   },
   "mainBox": {
     "summary": {
-      "title": "How We Helped a Toronto Family Sell Their Century Home for $1M in Just 8 Days",
+      "title": "How a Toronto Family Sold Their 100-Year-Old Home for $1,000,000 in Just 8 Days While Most Listings in the Area Took Nearly 40",
       "heroImage": {
         "src": "https://iili.io/KPFwAJ9.webp"
       },
