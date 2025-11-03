@@ -30,7 +30,7 @@ const config = {
   },
   "mainBox": {
     "summary": {
-      "title": "How We Transformed a Dated Family Home Into a $1M Sale. $71,000 Above Asking in Just 8 Days When Similar Properties Sat for around 40+ Days",
+      "title": "How We Helped a Toronto Family Sell Their Century Home for $1M in Just 8 Days",
       "heroImage": {
         "src": "https://iili.io/KPFwAJ9.webp"
       },
