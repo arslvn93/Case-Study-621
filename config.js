@@ -36,8 +36,8 @@ const config = {
       },
       "subTitle": "Summary",
       "paragraphs": [
-        "When Sarah inherited her childhood home at 14 Warren Crescent after her father's passing, she faced an overwhelming challenge. The house hadn't been updated in over 40 years, and comparable properties in the area were sitting on the market for weeks or expiring unsold.",
-        "Through professional service and market expertise, we delivered exceptional results for our client. <strong>SOLD FOR $1,000,000</strong> - $71,000 above the $929,000 asking price. <strong>SOLD IN JUST 8 DAYS</strong> - 5x faster than the 40+ day market average. Generated 22 qualified showings and secured the right buyer with strategic negotiation. <strong>NEGOTIATED PRICE UP $40,000</strong> from the buyer's initial offer, even with no competing bids. Closed successfully with no renegotiations or deal-threatening surprises."
+        "This century home on Warren Crescent had been in the same family for over 40 years. It had not been updated in decades, and similar properties in the area were taking close to 40 days to sell or were expiring without offers.",
+        "Through thoughtful preparation and a focused strategy, we helped our client achieve a strong result. The home sold for $1,000,000, which was $71,000 above the $929,000 asking price. It sold in just 8 days, well ahead of the local average. The campaign generated 22 qualified showings, and we secured the right buyer through clear positioning and professional marketing. During negotiations, we were able to increase the buyer’s initial offer by $40,000, even without competing bids. The sale closed smoothly, without any renegotiations or unexpected issues.\n\nThis outcome was the result of preparation, experience, and an approach tailored to the home and the market."
       ]
     },
     "sidebar": {
